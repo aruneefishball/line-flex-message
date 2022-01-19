@@ -1,0 +1,91 @@
+{
+    "type": "flex",
+    "altText": "this is a flex message",
+    "contents": {
+                  "type": "bubble",
+                  "body": {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [
+                      {
+                        "type": "text",
+                        "text": "เมนู",
+                        "weight": "bold",
+                        "size": "xl"
+                      }
+                    ]
+                  },
+                  "footer": {
+                    "type": "box",
+                    "layout": "vertical",
+                    "spacing": "sm",
+                    "contents": [
+                      {
+                        "type": "button",
+                        "style": "link",
+                        "height": "sm",
+                        "action": {
+                          "type": "uri",
+                          "label": "1) สั่งสินค้า",
+                          "uri": "https://arunee-backend.azurewebsites.net/"
+                        }
+                      },
+                      {
+                        "type": "button",
+                        "style": "link",
+                        "height": "sm",
+                        "action": {
+                          "type": "uri",
+                          "label": "2) ยกเลิกการสั่ง",
+                          "uri": "https://arunee-backend.azurewebsites.net/invoice"
+                        }
+                      },
+                      {
+                        "type": "button",
+                        "style": "link",
+                        "height": "sm",
+                        "action": {
+                          "type": "uri",
+                          "label": "3) รายการรอส่ง",
+                          "uri": "https://arunee-backend.azurewebsites.net/invoice"
+                        }
+                      },
+                      {
+                        "type": "button",
+                        "style": "link",
+                        "height": "sm",
+                        "action": {
+                          "type": "uri",
+                          "label": "4) ยอดค้าง",
+                          "uri": "https://arunee-backend.azurewebsites.net/invoice"
+                        }
+                      },
+                      {
+                        "type": "button",
+                        "style": "link",
+                        "height": "sm",
+                        "action": {
+                          "type": "uri",
+                          "label": "5) แก้ไขข้อมูลลูกค้า",
+                          "uri": "https://arunee-backend.azurewebsites.net/"
+                        }
+                      },
+                      {
+                        "type": "button",
+                        "style": "link",
+                        "height": "sm",
+                        "action": {
+                          "type": "uri",
+                          "label": "6) ตั้งค่ากลุ่ม",
+                          "uri": "https://arunee-backend.azurewebsites.net/set"
+                        }
+                      },
+                      {
+                        "type": "spacer",
+                        "size": "sm"
+                      }
+                    ],
+                    "flex": 0
+                  }
+                } 
+  }
