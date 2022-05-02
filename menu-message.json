@@ -66,7 +66,17 @@
                         "height": "sm",
                         "action": {
                           "type": "uri",
-                          "label": "5) แก้ไขข้อมูลลูกค้า",
+                          "label": "5) เปลี่ยนเวลาสั่งของ",
+                          "uri": "https://arunee-backend.azurewebsites.net/"
+                        }
+                      },
+                      {
+                        "type": "button",
+                        "style": "link",
+                        "height": "sm",
+                        "action": {
+                          "type": "uri",
+                          "label": "6) แก้ไขข้อมูลลูกค้า",
                           "uri": "https://arunee-backend.azurewebsites.net/"
                         }
                       },
