@@ -87,7 +87,7 @@
                         "action": {
                           "type": "uri",
                           "label": "7) ตั้งค่ากลุ่ม",
-                          "uri": "https://arunee-backend.azurewebsites.net/set"
+                          "uri": "https://arunee-rolling.nxlv.org/set"
                         }
                       },
                       {
