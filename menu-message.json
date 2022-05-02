@@ -76,7 +76,7 @@
                         "height": "sm",
                         "action": {
                           "type": "uri",
-                          "label": "6) แก้ไขข้อมูลลูกค้า",
+                          "label": "7) แก้ไขข้อมูลลูกค้า",
                           "uri": "https://arunee-backend.azurewebsites.net/"
                         }
                       },
