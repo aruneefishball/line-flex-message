@@ -67,7 +67,7 @@
                         "action": {
                           "type": "uri",
                           "label": "5) เปลี่ยนเวลาสั่งของ",
-                          "uri": "https://arunee-backend.azurewebsites.net/"
+                          "uri": "https://nice-sand-0a1d2d610.1.azurestaticapps.net/mainpage/ListPage/AuditCustomer"
                         }
                       },
                       {
