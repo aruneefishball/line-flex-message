@@ -27,7 +27,7 @@
         "action": {
           "type": "uri",
           "label": "ลงทะเบียน",
-          "uri": "https://liff.line.me/1657137993-lqYxDLoD"
+          "uri": $REGISTER$
         }
       },
       {
