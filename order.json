@@ -27,7 +27,7 @@
         "action": {
           "type": "uri",
           "label": "สั่งสินค้า",
-          "uri": "https://liff.line.me/1657137993-N21QBp8B"
+          "uri": $ORDER$
         }
       },
       {
