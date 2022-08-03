@@ -27,7 +27,7 @@
         "action": {
           "type": "uri",
           "label": "ลงทะเบียน",
-          "uri": $REGISTER$
+          "uri": '$REGISTER$'
         }
       },
       {
