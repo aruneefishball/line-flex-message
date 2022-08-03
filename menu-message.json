@@ -27,7 +27,7 @@
                         "action": {
                           "type": "uri",
                           "label": "1) สั่งสินค้า",
-                          "uri": "https://arunee-backend.azurewebsites.net/"
+                          "uri": $MENU_PROD$
                         }
                       },
                       {
@@ -37,7 +37,7 @@
                         "action": {
                           "type": "uri",
                           "label": "2) ยกเลิกการสั่ง",
-                          "uri": "https://arunee-backend.azurewebsites.net/invoice"
+                          "uri": $MENU_CNC_ORDER$
                         }
                       },
                       {
@@ -47,7 +47,7 @@
                         "action": {
                           "type": "uri",
                           "label": "3) รายการรอส่ง",
-                          "uri": "https://arunee-backend.azurewebsites.net/invoice"
+                          "uri": $MENU_WT_ORDER$
                         }
                       },
                       {
@@ -57,7 +57,7 @@
                         "action": {
                           "type": "uri",
                           "label": "4) ยอดค้าง",
-                          "uri": "https://arunee-backend.azurewebsites.net/invoice"
+                          "uri": $MENU_RMN_ORDER$
                         }
                       },
                       {
@@ -67,7 +67,7 @@
                         "action": {
                           "type": "uri",
                           "label": "5) เปลี่ยนเวลาสั่งของ",
-                          "uri": "https://nice-sand-0a1d2d610.1.azurestaticapps.net/mainpage/ListPage/AuditCustomer"
+                          "uri": $MENU_SHPT$
                         }
                       },
                       {
@@ -77,7 +77,7 @@
                         "action": {
                           "type": "uri",
                           "label": "6) แก้ไขข้อมูลลูกค้า",
-                          "uri": "https://liff.line.me/1657137993-v74p5LA5"
+                          "uri": $MENU_CST_EDIT$
                         }
                       },
                       {
@@ -87,7 +87,7 @@
                         "action": {
                           "type": "uri",
                           "label": "7) ตั้งค่ากลุ่ม",
-                          "uri": "https://liff.line.me/1657137993-v74p5LA5"
+                          "uri": $MENU_GRP_EDIT$
                         }
                       },
                       {
