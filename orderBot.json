@@ -27,7 +27,7 @@
         "action": {
           "type": "uri",
           "label": "ดูเมนูทั้งหมด",
-          "uri": "https://liff.line.me/1657137993-N21QBp8B"
+          "uri": $ORDERBOT_MENU$
         }
       },
       {
@@ -37,7 +37,7 @@
         "action": {
           "type": "uri",
           "label": "ดูเมนูสั่งประจำ",
-          "uri": "https://liff.line.me/1657137993-N21QBp8B"
+          "uri": $ORDERBOT_FAV$
         }
       },
       {
