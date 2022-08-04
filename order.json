@@ -27,7 +27,7 @@
         "action": {
           "type": "uri",
           "label": "สั่งสินค้า",
-          "uri": $ORDER$
+          "uri": "$ORDER$"
         }
       },
       {
