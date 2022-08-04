@@ -27,7 +27,7 @@
         "action": {
           "type": "uri",
           "label": "ดูเมนูทั้งหมด",
-          "uri": $ORDERBOT_MENU$
+          "uri": "$ORDERBOT_MENU$"
         }
       },
       {
@@ -37,7 +37,7 @@
         "action": {
           "type": "uri",
           "label": "ดูเมนูสั่งประจำ",
-          "uri": $ORDERBOT_FAV$
+          "uri": "$ORDERBOT_FAV$"
         }
       },
       {
