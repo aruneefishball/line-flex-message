@@ -27,7 +27,7 @@
                         "action": {
                           "type": "uri",
                           "label": "1) สั่งสินค้า",
-                          "uri": $MENU_PROD$
+                          "uri": "$MENU_PROD$"
                         }
                       },
                       {
@@ -37,7 +37,7 @@
                         "action": {
                           "type": "uri",
                           "label": "2) ยกเลิกการสั่ง",
-                          "uri": $MENU_CNC_ORDER$
+                          "uri": "$MENU_CNC_ORDER$"
                         }
                       },
                       {
@@ -47,7 +47,7 @@
                         "action": {
                           "type": "uri",
                           "label": "3) รายการรอส่ง",
-                          "uri": $MENU_WT_ORDER$
+                          "uri": "$MENU_WT_ORDER$"
                         }
                       },
                       {
@@ -57,7 +57,7 @@
                         "action": {
                           "type": "uri",
                           "label": "4) ยอดค้าง",
-                          "uri": $MENU_RMN_ORDER$
+                          "uri": "$MENU_RMN_ORDER$"
                         }
                       },
                       {
@@ -67,7 +67,7 @@
                         "action": {
                           "type": "uri",
                           "label": "5) เปลี่ยนเวลาสั่งของ",
-                          "uri": $MENU_SHPT$
+                          "uri": "$MENU_SHPT$"
                         }
                       },
                       {
@@ -77,7 +77,7 @@
                         "action": {
                           "type": "uri",
                           "label": "6) แก้ไขข้อมูลลูกค้า",
-                          "uri": $MENU_CST_EDIT$
+                          "uri": "$MENU_CST_EDIT$"
                         }
                       },
                       {
@@ -87,7 +87,7 @@
                         "action": {
                           "type": "uri",
                           "label": "7) ตั้งค่ากลุ่ม",
-                          "uri": $MENU_GRP_EDIT$
+                          "uri": "$MENU_GRP_EDIT$"
                         }
                       },
                       {
