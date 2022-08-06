@@ -1,0 +1,73 @@
+{
+    "type": "flex",
+    "altText": "this is a flex message",
+    "contents": {
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "ท่านยังไม่ได้ชำระเงิน",
+        "weight": "bold",
+        "size": "xl"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "spacing": "md",
+        "contents": [
+          {
+            "type": "text",
+            "text": "จำนวนเงินที่ยังไม่ชำระ",
+            "wrap": true
+          },
+          {
+            "type": "separator"
+          },
+          {
+            "type": "text",
+            "text": "$liability_balance$",
+            "wrap": true
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "sm",
+    "contents": [
+      {
+        "type": "button",
+        "style": "link",
+        "height": "sm",
+        "action": {
+          "type": "uri",
+          "label": "กรุณากดเพื่อชำระเงิน",
+          "uri": "$MENU_RMN_ORDER$"
+        }
+      },
+      {
+        "type": "text",
+        "text": "กรุณาชำระเงินก่อน 14.00 น.",
+        "align": "center",
+        "size": "sm"
+      },
+      {
+        "type": "text",
+        "text": "เพื่อท่านจะไม่ถูกปรับลดเครดิต",
+        "align": "center",
+        "size": "sm"
+      },
+      {
+        "type": "spacer",
+        "size": "xl"
+      }
+    ],
+    "flex": 0
+  }
+}
+  }
