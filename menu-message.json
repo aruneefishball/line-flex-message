@@ -185,7 +185,7 @@
     "offsetEnd": "none",
     "paddingBottom": "xxl",
     "borderColor": "#ffffff",
-    "borderWidth": "bold",
+    "borderWidth": "semi-bold",
     "cornerRadius": "xl"
   },
   "styles": {
