@@ -55,7 +55,6 @@
         "borderColor": "#ffffff",
         "spacing": "none",
         "cornerRadius": "md",
-        "width": "300px",
         "paddingAll": "md"
       },
       {
@@ -82,7 +81,6 @@
         "borderColor": "#ffffff",
         "spacing": "none",
         "cornerRadius": "md",
-        "width": "300px",
         "paddingAll": "md"
       }
     ],
