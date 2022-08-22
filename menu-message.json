@@ -6,14 +6,14 @@
   "body": {
     "type": "box",
     "layout": "vertical",
-    "backgroundColor": "#F23D92",
     "contents": [
       {
         "type": "text",
         "text": "เมนู",
         "weight": "bold",
         "color": "#ffffff",
-        "size": "3xl"
+        "size": "3xl",
+        "margin": "none"
       },
       {
         "type": "filler"
@@ -22,98 +22,176 @@
         "type": "separator",
         "margin": "xxl",
         "color": "#000000"
-      }
-    ]
-  },
-  "footer": {
-    "type": "box",
-    "layout": "vertical",
-    "spacing": "sm",
-    "backgroundColor": "#F23D92",
-    "contents": [
-      {
-        "type": "button",
-        "style": "link",
-        "height": "sm",
-        "color": "#ffffff",
-        "action": {
-          "type": "uri",
-          "label": "1) สั่งสินค้า",
-          "uri": "$MENU_PROD$"
-        }
       },
       {
-        "type": "button",
-        "style": "link",
-        "height": "sm",
-        "color": "#ffffff",
-        "action": {
-          "type": "uri",
-          "label": "2) ยกเลิกการสั่ง",
-          "uri": "$MENU_CNC_ORDER$"
-        }
+        "type": "box",
+        "layout": "vertical",
+        "margin": "xxl",
+        "spacing": "none",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "margin": "none",
+            "contents": [
+              {
+                "type": "text",
+                "text": "1) สั่งสินค้า",
+                "size": "xl",
+                "color": "#ffffff",
+                "action": {
+                  "type": "uri",
+                  "label": "action",
+                  "uri": "$MENU_PROD$"
+                }
+              }
+            ],
+            "spacing": "none"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "margin": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "2) ยกเลิกการสั่งซื้อ",
+                "size": "xl",
+                "color": "#ffffff",
+                "action": {
+                  "type": "uri",
+                  "label": "action",
+                  "uri": "$MENU_CNC_ORDER$"
+                }
+              }
+            ],
+            "spacing": "none"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "margin": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "3) รายการรอส่ง",
+                "size": "xl",
+                "color": "#ffffff",
+                "action": {
+                  "type": "uri",
+                  "label": "action",
+                  "uri": "$MENU_WT_ORDER$"
+                }
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "margin": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "4) ยอดค้าง",
+                "size": "xl",
+                "color": "#ffffff",
+                "action": {
+                  "type": "uri",
+                  "label": "action",
+                  "uri": "$MENU_RMN_ORDER$"
+                }
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "margin": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "5) เปลี่ยนเวลาสั่งของ",
+                "size": "xl",
+                "color": "#ffffff",
+                "action": {
+                  "type": "uri",
+                  "label": "action",
+                  "uri": "$MENU_SHPT$"
+                }
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "margin": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "6) แก้ไขข้อมูลลูกค้า",
+                "size": "xl",
+                "color": "#ffffff",
+                "action": {
+                  "type": "uri",
+                  "label": "action",
+                  "uri": "$MENU_CST_EDIT$"
+                }
+              }
+            ],
+            "paddingEnd": "none"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "margin": "sm",
+            "contents": [
+              {
+                "type": "text",
+                "text": "7) ตั้งค่ากลุ่ม",
+                "size": "xl",
+                "color": "#ffffff",
+                "margin": "none",
+                "offsetTop": "none",
+                "action": {
+                  "type": "uri",
+                  "label": "action",
+                  "uri": "$MENU_GRP_EDIT$"
+                }
+              }
+            ],
+            "spacing": "none",
+            "offsetTop": "none"
+          }
+        ],
+        "paddingAll": "none",
+        "borderWidth": "none",
+        "cornerRadius": "none"
       },
       {
-        "type": "button",
-        "style": "link",
-        "height": "sm",
-        "color": "#ffffff",
-        "action": {
-          "type": "uri",
-          "label": "3) รายการรอส่ง",
-          "uri": "$MENU_WT_ORDER$"
-        }
+        "type": "filler"
       },
       {
-        "type": "button",
-        "style": "link",
-        "height": "sm",
-        "color": "#ffffff",
-        "action": {
-          "type": "uri",
-          "label": "4) ยอดค้าง",
-          "uri": "$MENU_RMN_ORDER$"
-        }
+        "type": "filler"
       },
       {
-        "type": "button",
-        "style": "link",
-        "height": "sm",
-        "color": "#ffffff",
-        "action": {
-          "type": "uri",
-          "label": "5) เปลี่ยนเวลาสั่งของ",
-          "uri": "$MENU_SHPT$"
-        }
-      },
-      {
-        "type": "button",
-        "style": "link",
-        "height": "sm",
-        "color": "#ffffff",
-        "action": {
-          "type": "uri",
-          "label": "6) แก้ไขข้อมูลลูกค้า",
-          "uri": "$MENU_CST_EDIT$"
-        }
-      },
-      {
-        "type": "button",
-        "style": "link",
-        "height": "sm",
-        "color": "#ffffff",
-        "action": {
-          "type": "uri",
-          "label": "7) ตั้งค่ากลุ่ม",
-          "uri": "$MENU_GRP_EDIT$"
-        }
-      },
-      {
-        "type": "spacer",
-        "size": "sm"
+        "type": "box",
+        "layout": "vertical",
+        "contents": [],
+        "margin": "xxl"
       }
     ],
-    "flex": 0
+    "backgroundColor": "#da1884",
+    "paddingEnd": "none",
+    "offsetEnd": "none",
+    "paddingBottom": "xxl",
+    "borderColor": "#ffffff",
+    "borderWidth": "bold",
+    "cornerRadius": "xl"
+  },
+  "styles": {
+    "footer": {
+      "separator": true
+    }
   }
-} 
+}
   }
