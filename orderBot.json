@@ -42,12 +42,7 @@
             "weight": "regular",
             "size": "xl",
             "color": "#ffffff",
-            "align": "center",
-            "action": {
-              "type": "uri",
-              "label": "action",
-              "uri": "$ORDERBOT_MENU$"
-            }
+            "align": "center"
           }
         ],
         "margin": "xxl",
@@ -55,7 +50,12 @@
         "borderColor": "#ffffff",
         "spacing": "none",
         "cornerRadius": "md",
-        "paddingAll": "md"
+        "paddingAll": "md",
+        "action": {
+          "type": "uri",
+          "label": "action",
+          "uri": "$ORDERBOT_MENU$"
+        }
       },
       {
         "type": "box",
@@ -68,12 +68,7 @@
             "weight": "regular",
             "size": "xl",
             "color": "#ffffff",
-            "align": "center",
-            "action": {
-              "type": "uri",
-              "label": "action",
-              "uri": "$ORDERBOT_FAV$"
-            }
+            "align": "center"
           }
         ],
         "margin": "xxl",
@@ -81,10 +76,22 @@
         "borderColor": "#ffffff",
         "spacing": "none",
         "cornerRadius": "md",
-        "paddingAll": "md"
+        "paddingAll": "md",
+        "action": {
+          "type": "uri",
+          "label": "action",
+          "uri": "$ORDERBOT_FAV$"
+        }
       }
     ],
-    "backgroundColor": "#da1884"
+    "backgroundColor": "#FF0000",
+    "background": {
+      "type": "linearGradient",
+      "angle": "30deg",
+      "startColor": "#770737",
+      "endColor": "#FF3131",
+      "centerColor": "#DC143C"
+    }
   }
 }
   }
