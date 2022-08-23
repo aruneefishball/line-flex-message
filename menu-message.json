@@ -184,14 +184,13 @@
     "offsetEnd": "none",
     "paddingBottom": "xxl",
     "borderColor": "#ffffff",
-    "borderWidth": "semi-bold",
+    "borderWidth": "bold",
     "cornerRadius": "xl",
     "background": {
       "type": "linearGradient",
       "angle": "30deg",
       "startColor": "#770737",
-      "endColor": "#FF3131"
-      "centerColor": "#DC143C"  
+      "endColor": "#dc143c"
     }
   },
   "styles": {
