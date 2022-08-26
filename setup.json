@@ -11,33 +11,38 @@
         "type": "text",
         "text": "กรุณาตั้งค่า customerID",
         "weight": "bold",
-        "size": "xl"
-      }
-    ]
-  },
-  "footer": {
-    "type": "box",
-    "layout": "vertical",
-    "spacing": "sm",
-    "contents": [
-      {
-        "type": "button",
-        "style": "link",
-        "height": "sm",
-        "action": {
-          "type": "uri",
-          "label": "ยืนยัน",
-          "uri": "$SETUP$"
-        }
+        "size": "xl",
+        "color": "#ffffff"
       },
       {
         "type": "box",
         "layout": "vertical",
-        "contents": [],
-        "margin": "sm"
+        "contents": [
+          {
+            "type": "text",
+            "text": "ยืนยัน",
+            "color": "#ffffff",
+            "size": "xl",
+            "align": "center"
+          }
+        ],
+        "margin": "xl",
+        "borderWidth": "medium",
+        "borderColor": "#ffffff",
+        "cornerRadius": "md",
+        "action": {
+          "type": "uri",
+          "label": "action",
+          "uri": "$SETUP$"
+        }
       }
     ],
-    "flex": 0
+    "background": {
+      "type": "linearGradient",
+      "angle": "30deg",
+      "startColor": "#660099",
+      "endColor": "#ff1493"
+    }
   }
 }
   }
