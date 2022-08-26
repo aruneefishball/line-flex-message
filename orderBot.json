@@ -82,15 +82,41 @@
           "label": "action",
           "uri": "$ORDERBOT_FAV$"
         }
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "text",
+            "text": "หยุดการแจ้งเตือน",
+            "margin": "none",
+            "weight": "regular",
+            "size": "xl",
+            "color": "#ffffff",
+            "align": "center",
+            "action": {
+              "type": "message",
+              "label": "action",
+              "text": "หยุดการแจ้งเตือน"
+            }
+          }
+        ],
+        "margin": "xxl",
+        "borderWidth": "light",
+        "borderColor": "#ffffff",
+        "spacing": "none",
+        "cornerRadius": "md",
+        "paddingAll": "md"
       }
     ],
     "backgroundColor": "#FF0000",
     "background": {
       "type": "linearGradient",
       "angle": "30deg",
-      "startColor": "#770737",
-      "endColor": "#FF3131",
-      "centerColor": "#DC143C"
+      "startColor": "#660099",
+      "endColor": "#ff1493",
+      "centerColor": "#da1884"
     }
   }
 }
