@@ -11,33 +11,39 @@
         "type": "text",
         "text": "กรุณาลงทะเบียนลูกค้า",
         "weight": "bold",
-        "size": "xl"
-      }
-    ]
-  },
-  "footer": {
-    "type": "box",
-    "layout": "vertical",
-    "spacing": "sm",
-    "contents": [
-      {
-        "type": "button",
-        "style": "link",
-        "height": "sm",
-        "action": {
-          "type": "uri",
-          "label": "ลงทะเบียน",
-          "uri": "$REGISTER$"
-        }
+        "size": "xl",
+        "color": "#ffffff"
       },
       {
         "type": "box",
         "layout": "vertical",
-        "contents": [],
-        "margin": "sm"
+        "contents": [
+          {
+            "type": "text",
+            "text": "ลงทะเบียน",
+            "color": "#ffffff",
+            "size": "xl",
+            "margin": "none"
+          }
+        ],
+        "borderWidth": "normal",
+        "borderColor": "#ffffff",
+        "cornerRadius": "md",
+        "alignItems": "center",
+        "margin": "xl",
+        "action": {
+          "type": "uri",
+          "label": "action",
+          "uri": "$REGISTER$"
+        }
       }
     ],
-    "flex": 0
+    "background": {
+      "type": "linearGradient",
+      "angle": "30deg",
+      "startColor": "#660099",
+      "endColor": "#ff1493"
+    }
   }
 }
   }
