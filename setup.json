@@ -27,7 +27,7 @@
           }
         ],
         "margin": "xl",
-        "borderWidth": "medium",
+        "borderWidth": "normal",
         "borderColor": "#ffffff",
         "cornerRadius": "md",
         "action": {
