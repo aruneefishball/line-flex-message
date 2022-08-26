@@ -189,8 +189,8 @@
     "background": {
       "type": "linearGradient",
       "angle": "30deg",
-      "startColor": "#770737",
-      "endColor": "#dc143c"
+      "startColor": "#660099",
+      "endColor": "#da1884"
     }
   },
   "styles": {
