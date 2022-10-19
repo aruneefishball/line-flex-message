@@ -45,7 +45,7 @@
             "action": {
               "type": "uri",
               "label": "action",
-              "uri": "$GOOGLE$"
+              "uri": "$MENU_PROD$"
             }
           },
           {
