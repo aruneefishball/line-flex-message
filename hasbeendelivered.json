@@ -1,1 +1,335 @@
+{
+    "type": "flex",
+    "altText": "this is a flex message",
+    "contents": {
+  "type": "bubble",
+  "size": "mega",
+  "header": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "สินค้าจัดส่งถึงแล้ว",
+            "color": "#ffffff",
+            "size": "lg",
+            "flex": 4,
+            "weight": "bold"
+          }
+        ]
+      }
+    ],
+    "paddingAll": "20px",
+    "backgroundColor": "#0367D3",
+    "spacing": "md",
+    "height": "75px",
+    "paddingTop": "22px",
+    "background": {
+      "type": "linearGradient",
+      "angle": "30deg",
+      "startColor": "#660099",
+      "endColor": "#da1884"
+    }
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "text",
+            "text": "การสั่งสินค้า",
+            "size": "sm",
+            "gravity": "center",
+            "flex": 2
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "filler"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [],
+                "cornerRadius": "30px",
+                "height": "12px",
+                "width": "12px",
+                "borderColor": "#6486E3",
+                "borderWidth": "2px"
+              },
+              {
+                "type": "filler"
+              }
+            ],
+            "flex": 0
+          },
+          {
+            "type": "text",
+            "text": "เสร็จสมบูรณ์",
+            "gravity": "center",
+            "flex": 4,
+            "size": "sm"
+          }
+        ],
+        "spacing": "lg",
+        "cornerRadius": "30px",
+        "margin": "xl"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "filler"
+              }
+            ],
+            "flex": 2
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "horizontal",
+                "contents": [
+                  {
+                    "type": "filler"
+                  },
+                  {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [],
+                    "width": "2px",
+                    "backgroundColor": "#6486E3"
+                  },
+                  {
+                    "type": "filler"
+                  }
+                ],
+                "flex": 2
+              }
+            ],
+            "width": "12px"
+          },
+          {
+            "type": "text",
+            "gravity": "center",
+            "flex": 4,
+            "size": "xs",
+            "color": "#ffffff",
+            "text": "."
+          }
+        ],
+        "spacing": "lg",
+        "height": "16px"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "การส่งสินค้า",
+                "gravity": "center",
+                "size": "sm"
+              }
+            ],
+            "flex": 2
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "filler"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [],
+                "cornerRadius": "30px",
+                "width": "12px",
+                "height": "12px",
+                "borderWidth": "2px",
+                "borderColor": "#6486E3"
+              },
+              {
+                "type": "filler"
+              }
+            ],
+            "flex": 0
+          },
+          {
+            "type": "text",
+            "text": "เสร็จสมบูรณ์",
+            "gravity": "center",
+            "flex": 4,
+            "size": "sm"
+          }
+        ],
+        "spacing": "lg",
+        "cornerRadius": "30px"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "filler"
+              }
+            ],
+            "flex": 2
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "horizontal",
+                "contents": [
+                  {
+                    "type": "filler"
+                  },
+                  {
+                    "type": "box",
+                    "layout": "vertical",
+                    "contents": [],
+                    "width": "2px",
+                    "backgroundColor": "#6486E3"
+                  },
+                  {
+                    "type": "filler"
+                  }
+                ],
+                "flex": 1
+              }
+            ],
+            "width": "12px",
+            "flex": 2
+          },
+          {
+            "type": "text",
+            "text": ".",
+            "gravity": "center",
+            "flex": 4,
+            "size": "xxs",
+            "color": "#ffffff"
+          }
+        ],
+        "spacing": "lg",
+        "height": "16px"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "text",
+            "text": "การรับสินค้า",
+            "gravity": "center",
+            "size": "sm",
+            "flex": 2
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "filler"
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [],
+                "cornerRadius": "30px",
+                "width": "12px",
+                "height": "12px",
+                "borderColor": "#ff0505",
+                "borderWidth": "2px"
+              },
+              {
+                "type": "filler"
+              }
+            ],
+            "flex": 0
+          },
+          {
+            "type": "text",
+            "text": "กรุณากดยืนยันรับสินค้า",
+            "gravity": "center",
+            "flex": 4,
+            "size": "sm"
+          }
+        ],
+        "spacing": "lg",
+        "cornerRadius": "30px"
+      },
+      {
+        "type": "separator",
+        "margin": "xl"
+      },
+      {
+        "type": "text",
+        "text": "หากไม่กดยืนยันภายใน 15 นาที",
+        "margin": "xl"
+      },
+      {
+        "type": "text",
+        "text": "จะถือว่าคุณลูกค้า ได้รับสินค้า"
+      },
+      {
+        "type": "text",
+        "text": "ครบถ้วนแล้ว"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "ได้รับสินค้าแล้ว",
+              "uri": "http://linecorp.com/"
+            },
+            "color": "#ffffff",
+            "height": "md",
+            "gravity": "center"
+          }
+        ],
+        "backgroundColor": "#da1884",
+        "borderWidth": "bold",
+        "borderColor": "#ffffff",
+        "cornerRadius": "xl",
+        "margin": "xxl"
+      }
+    ],
+    "backgroundColor": "#fcecfa"
+  }
+}
+  }
 
