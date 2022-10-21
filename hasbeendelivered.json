@@ -314,7 +314,7 @@
             "action": {
               "type": "uri",
               "label": "ได้รับสินค้าแล้ว",
-              "uri": "http://linecorp.com/"
+              "uri": "$DUEORNOTDUE$"
             },
             "color": "#ffffff",
             "height": "md",
