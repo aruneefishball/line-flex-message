@@ -3,71 +3,108 @@
     "altText": "this is a flex message",
     "contents": {
   "type": "bubble",
+  "size": "mega",
+  "header": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "จำนวนเงินที่ยังไม่ชำระ",
+            "color": "#ffffff",
+            "size": "lg",
+            "flex": 4,
+            "weight": "bold"
+          }
+        ]
+      }
+    ],
+    "paddingAll": "20px",
+    "backgroundColor": "#0367D3",
+    "spacing": "md",
+    "height": "75px",
+    "paddingTop": "22px",
+    "background": {
+      "type": "linearGradient",
+      "angle": "30deg",
+      "startColor": "#660099",
+      "endColor": "#da1884"
+    }
+  },
   "body": {
     "type": "box",
     "layout": "vertical",
     "contents": [
       {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "จำนวนเงิน",
+            "align": "end"
+          }
+        ],
+        "action": {
+          "type": "datetimepicker",
+          "label": "action",
+          "data": "hello",
+          "mode": "date"
+        }
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "$liability_balance$",
+            "align": "end",
+            "size": "lg"
+          }
+        ]
+      },
+      {
+        "type": "separator",
+        "margin": "xl"
+      },
+      {
         "type": "text",
-        "text": "ท่านยังไม่ได้ชำระเงิน",
-        "weight": "bold",
-        "size": "xl"
+        "text": "กรุณาชำระก่อน 14:00 น.",
+        "margin": "xl"
+      },
+      {
+        "type": "text",
+        "text": "เพื่อท่านจะไม่ถูกปรับลดเครดิต"
       },
       {
         "type": "box",
         "layout": "horizontal",
-        "spacing": "md",
         "contents": [
           {
-            "type": "text",
-            "text": "จำนวนเงินที่ยังไม่ชำระ",
-            "wrap": true
-          },
-          {
-            "type": "separator"
-          },
-          {
-            "type": "text",
-            "text": "$liability_balance$",
-            "wrap": true
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "ชำระเงิน",
+              "uri": "$MENU_RMN_ORDER$"
+            },
+            "color": "#ffffff",
+            "height": "md",
+            "gravity": "center"
           }
-        ]
-      }
-    ]
-  },
-  "footer": {
-    "type": "box",
-    "layout": "vertical",
-    "spacing": "sm",
-    "contents": [
-      {
-        "type": "button",
-        "style": "link",
-        "height": "sm",
-        "action": {
-          "type": "uri",
-          "label": "กรุณากดเพื่อชำระเงิน",
-          "uri": "$MENU_RMN_ORDER$"
-        }
-      },
-      {
-        "type": "text",
-        "text": "กรุณาชำระเงินก่อน 14.00 น.",
-        "align": "center",
-        "size": "sm"
-      },
-      {
-        "type": "text",
-        "text": "เพื่อท่านจะไม่ถูกปรับลดเครดิต",
-        "align": "center",
-        "size": "sm"
-      },
-      {
-        "type": "spacer",
-        "size": "xl"
+        ],
+        "backgroundColor": "#da1884",
+        "borderWidth": "semi-bold",
+        "borderColor": "#ffffff",
+        "cornerRadius": "xl",
+        "margin": "xxl"
       }
     ],
-    "flex": 0
+    "backgroundColor": "#e1cdfe"
   }
 }
   }
