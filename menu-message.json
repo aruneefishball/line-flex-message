@@ -55,25 +55,6 @@
             "contents": [
               {
                 "type": "text",
-                "text": "2) ยกเลิกการสั่งซื้อ",
-                "size": "xl",
-                "color": "#ffffff"
-              }
-            ],
-            "spacing": "none",
-            "action": {
-              "type": "uri",
-              "label": "action",
-              "uri": "$MENU_CNC_ORDER$"
-            }
-          },
-          {
-            "type": "box",
-            "layout": "horizontal",
-            "margin": "sm",
-            "contents": [
-              {
-                "type": "text",
                 "text": "3) รายการรอส่ง",
                 "size": "xl",
                 "color": "#ffffff"
