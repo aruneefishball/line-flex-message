@@ -52,9 +52,9 @@
         "cornerRadius": "md",
         "paddingAll": "md",
         "action": {
-          "type": "uri",
+          "type": "message",
           "label": "action",
-          "uri": "$ORDERBOT_MENU$"
+          "text": "กรุณาสั่งสินค้ากับสายส่งในกลุ่มไลน์นี้ได้เลยค่ะ"
         }
       },
       {
@@ -78,9 +78,9 @@
         "cornerRadius": "md",
         "paddingAll": "md",
         "action": {
-          "type": "uri",
+          "type": "message",
           "label": "action",
-          "uri": "$ORDERBOT_FAV$"
+          "text": "กรุณาสั่งสินค้ากับสายส่งในกลุ่มไลน์นี้ได้เลยค่ะ"
         }
       }
     ],
