@@ -52,9 +52,9 @@
         "cornerRadius": "md",
         "paddingAll": "md",
         "action": {
-          "type": "message",
+          "type": "uri",
           "label": "action",
-          "text": "กรุณาสั่งสินค้ากับสายส่งในกลุ่มไลน์นี้ได้เลยค่ะ"
+          "uri": "$ORDERBOT_MENU$"
         }
       },
       {
@@ -78,10 +78,36 @@
         "cornerRadius": "md",
         "paddingAll": "md",
         "action": {
-          "type": "message",
+          "type": "uri",
           "label": "action",
-          "text": "กรุณาสั่งสินค้ากับสายส่งในกลุ่มไลน์นี้ได้เลยค่ะ"
+          "uri": "$ORDERBOT_FAV$"
         }
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "text",
+            "text": "หยุดการแจ้งเตือน",
+            "margin": "none",
+            "weight": "regular",
+            "size": "xl",
+            "color": "#ffffff",
+            "align": "center",
+            "action": {
+              "type": "message",
+              "label": "action",
+              "text": "หยุดการแจ้งเตือน"
+            }
+          }
+        ],
+        "margin": "xxl",
+        "borderWidth": "light",
+        "borderColor": "#ffffff",
+        "spacing": "none",
+        "cornerRadius": "md",
+        "paddingAll": "md"
       }
     ],
     "backgroundColor": "#FF0000",
