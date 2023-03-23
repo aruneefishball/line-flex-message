@@ -140,7 +140,7 @@
             "action": {
               "type": "uri",
               "label": "action",
-              "uri": "$MENU_GRP_EDIT$"
+              "uri": "$MENU_GRP_EDIT$?groupID=$groupID$"
             }
           }
         ],
