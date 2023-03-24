@@ -118,7 +118,7 @@
             "action": {
               "type": "uri",
               "label": "action",
-              "uri": "$MENU_CST_EDIT$"
+              "uri": "$MENU_CST_EDIT$/?liff.state=$groupID$"
             }
           },
           {
@@ -140,7 +140,7 @@
             "action": {
               "type": "uri",
               "label": "action",
-              "uri": "$MENU_GRP_EDIT$?groupID=$groupID$"
+              "uri": "$MENU_GRP_EDIT$"
             }
           }
         ],
