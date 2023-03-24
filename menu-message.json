@@ -118,7 +118,7 @@
             "action": {
               "type": "uri",
               "label": "action",
-              "uri": "$MENU_CST_EDIT$/?liff.state=$groupID$"
+              "uri": "$MENU_CST_EDIT$/groupID=$groupID$"
             }
           },
           {
