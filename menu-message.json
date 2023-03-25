@@ -99,7 +99,7 @@
             "action": {
               "type": "uri",
               "label": "action",
-              "uri": "$MENU_SHPT$"
+              "uri": "$MENU_SHPT$/groupID=$groupID$"
             }
           },
           {
