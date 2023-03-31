@@ -34,7 +34,7 @@
         "action": {
           "type": "uri",
           "label": "action",
-          "uri": "$REGISTER$"
+          "uri": "$REGISTER$/groupID=$groupID$"
         }
       }
     ],
