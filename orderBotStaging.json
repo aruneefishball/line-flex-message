@@ -37,7 +37,7 @@
         "contents": [
           {
             "type": "text",
-            "text": "เมนูทั้งหมด",
+            "text": "กดสั่งซื้อสินค้า",
             "margin": "none",
             "weight": "regular",
             "size": "xl",
@@ -55,32 +55,6 @@
           "type": "uri",
           "label": "action",
           "uri": "$ORDERBOT_MENU$"
-        }
-      },
-      {
-        "type": "box",
-        "layout": "horizontal",
-        "contents": [
-          {
-            "type": "text",
-            "text": "เมนูสั่งประจำ",
-            "margin": "none",
-            "weight": "regular",
-            "size": "xl",
-            "color": "#ffffff",
-            "align": "center"
-          }
-        ],
-        "margin": "xxl",
-        "borderWidth": "light",
-        "borderColor": "#ffffff",
-        "spacing": "none",
-        "cornerRadius": "md",
-        "paddingAll": "md",
-        "action": {
-          "type": "uri",
-          "label": "action",
-          "uri": "$ORDERBOT_FAV$"
         }
       },
       {
