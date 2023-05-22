@@ -51,6 +51,25 @@
           {
             "type": "box",
             "layout": "horizontal",
+            "margin": "none",
+            "contents": [
+              {
+                "type": "text",
+                "text": "2) เรียนคอร์สออนไลน์",
+                "size": "xl",
+                "color": "#ffffff"
+              }
+            ],
+            "spacing": "none",
+            "action": {
+              "type": "message",
+              "label": "action",
+              "text": "ขณะนี้กำลังพัฒนาคอร์สออนไลน์อยู่ค่ะ"
+            }
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
             "margin": "sm",
             "contents": [
               {
