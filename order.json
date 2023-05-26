@@ -26,7 +26,7 @@
           {
             "type": "text",
             "text": "สั่งสินค้า",
-            "size": "lg",
+            "size": "xl",
             "align": "center",
             "margin": "md",
             "offsetTop": "none",
@@ -49,10 +49,10 @@
     ],
     "background": {
       "type": "linearGradient",
-      "angle": "30deg",
-      "startColor": "#ff1493",
-      "endColor": "#e4007C",
-      "centerColor": "#DF00FF"
+      "angle": "15deg",
+      "startColor": "#9F00C5",
+      "endColor": "#DF00FF",
+      "centerColor": "#e4007C"
     }
   }
 }
