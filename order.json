@@ -10,34 +10,50 @@
       {
         "type": "text",
         "text": "กรุณากดสั่งสินค้า",
-        "weight": "bold",
-        "size": "xl"
-      }
-    ]
-  },
-  "footer": {
-    "type": "box",
-    "layout": "vertical",
-    "spacing": "sm",
-    "contents": [
-      {
-        "type": "button",
-        "style": "link",
-        "height": "sm",
-        "action": {
-          "type": "uri",
-          "label": "สั่งสินค้า",
-          "uri": "$ORDER$"
-        }
+        "weight": "regular",
+        "size": "xl",
+        "align": "center",
+        "offsetTop": "none",
+        "offsetBottom": "none",
+        "offsetEnd": "none",
+        "margin": "none",
+        "color": "#ffffff"
       },
       {
         "type": "box",
         "layout": "vertical",
-        "contents": [],
-        "margin": "sm"
+        "contents": [
+          {
+            "type": "text",
+            "text": "สั่งสินค้า",
+            "size": "lg",
+            "align": "center",
+            "margin": "md",
+            "offsetTop": "none",
+            "weight": "bold",
+            "gravity": "center",
+            "color": "#ffffff"
+          }
+        ],
+        "spacing": "xl",
+        "borderWidth": "medium",
+        "borderColor": "#ffffff",
+        "cornerRadius": "md",
+        "margin": "xl",
+        "action": {
+          "type": "uri",
+          "label": "action",
+          "uri": "$ORDER$"
+        }
       }
     ],
-    "flex": 0
+    "background": {
+      "type": "linearGradient",
+      "angle": "30deg",
+      "startColor": "#ff1493",
+      "endColor": "#e4007C",
+      "centerColor": "#DF00FF"
+    }
   }
 }
   }
