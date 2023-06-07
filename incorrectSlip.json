@@ -1,0 +1,55 @@
+{
+    "type": "flex",
+    "altText": "this is a flex message",
+    "contents": {
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "สลิปของท่าน ไม่ถูกต้อง",
+        "weight": "bold",
+        "size": "xl",
+        "color": "#ffffff"
+      },
+      {
+        "type": "separator",
+        "color": "#000000",
+        "margin": "xl"
+      },
+      {
+        "type": "text",
+        "text": "กรุณาแนบสลิป",
+        "weight": "bold",
+        "size": "xl",
+        "color": "#ffffff",
+        "wrap": true,
+        "align": "center",
+        "margin": "md"
+      },
+      {
+        "type": "text",
+        "text": "ที่ถูกต้องอีกครั้ง",
+        "weight": "bold",
+        "size": "xl",
+        "color": "#ffffff",
+        "wrap": true,
+        "align": "center"
+      }
+    ],
+    "backgroundColor": "#FF0000",
+    "background": {
+      "type": "linearGradient",
+      "angle": "30deg",
+      "startColor": "#660000",
+      "endColor": "#FF3800",
+      "centerColor": "#BF0A30"
+    },
+    "borderColor": "#ffffff",
+    "borderWidth": "bold",
+    "cornerRadius": "xxl"
+  }
+}
+  }
