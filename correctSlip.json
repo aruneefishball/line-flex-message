@@ -60,8 +60,8 @@
     "background": {
       "type": "linearGradient",
       "angle": "30deg",
-      "startColor": "#01796F",
-      "endColor": "#043927",
+      "startColor": "#043927",
+      "endColor": "#01796F",
       "centerColor": "#008000"
     },
     "borderColor": "#ffffff",
