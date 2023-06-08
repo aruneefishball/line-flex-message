@@ -21,6 +21,35 @@
       },
       {
         "type": "text",
+        "text": "กรุณาโอนไปที่ ธนาคาไทยพาณิชย์",
+        "weight": "bold",
+        "size": "md",
+        "color": "#EDE3FF",
+        "margin": "xl"
+      },
+      {
+        "type": "text",
+        "text": "ชื่อบัญชี บริษัท สุวรรณภูมิฟู้ด จำกัด",
+        "weight": "bold",
+        "size": "md",
+        "color": "#EDE3FF",
+        "margin": "sm"
+      },
+      {
+        "type": "text",
+        "text": "เลขที่บัญชี    347-404461-8",
+        "weight": "bold",
+        "size": "md",
+        "color": "#EDE3FF",
+        "margin": "sm"
+      },
+      {
+        "type": "separator",
+        "color": "#000000",
+        "margin": "xl"
+      },
+      {
+        "type": "text",
         "text": "กรุณาแนบสลิป",
         "weight": "bold",
         "size": "xl",
