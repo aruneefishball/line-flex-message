@@ -48,13 +48,7 @@
             "text": "จำนวนเงิน",
             "align": "end"
           }
-        ],
-        "action": {
-          "type": "datetimepicker",
-          "label": "action",
-          "data": "hello",
-          "mode": "date"
-        }
+        ]
       },
       {
         "type": "box",
@@ -76,10 +70,6 @@
         "type": "text",
         "text": "กรุณาชำระก่อน 14:00 น.",
         "margin": "xl"
-      },
-      {
-        "type": "text",
-        "text": "เพื่อท่านจะไม่ถูกปรับลดเครดิต"
       },
       {
         "type": "box",
