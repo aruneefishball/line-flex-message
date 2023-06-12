@@ -26,6 +26,95 @@
       },
       {
         "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "ชื่อผู้โอน",
+                "color": "#FFE6E8",
+                "flex": 0,
+                "size": "sm"
+              },
+              {
+                "type": "text",
+                "text": "$name$",
+                "align": "end",
+                "color": "#FFE6E8"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "วันที่",
+                "color": "#FFE6E8",
+                "flex": 0,
+                "size": "sm"
+              },
+              {
+                "type": "text",
+                "text": "$date$",
+                "align": "end",
+                "color": "#FFE6E8"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "เวลา",
+                "color": "#FFE6E8",
+                "flex": 0,
+                "size": "sm"
+              },
+              {
+                "type": "text",
+                "text": "$time$",
+                "align": "end",
+                "color": "#FFE6E8"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "จำนวนเงิน",
+                "color": "#FFE6E8",
+                "flex": 0,
+                "size": "sm"
+              },
+              {
+                "type": "text",
+                "text": "$amount$",
+                "align": "end",
+                "color": "#F0FFF0"
+              }
+            ]
+          }
+        ],
+        "spacing": "sm",
+        "margin": "xxl"
+      },
+      {
+        "type": "separator",
+        "color": "#000000",
+        "margin": "xl"
+      },
+      {
+        "type": "box",
         "layout": "horizontal",
         "contents": [
           {
@@ -35,12 +124,7 @@
             "weight": "regular",
             "size": "xl",
             "color": "#ffffff",
-            "align": "center",
-            "action": {
-              "type": "uri",
-              "label": "action",
-              "uri": "$DUEORNOTDUE$"
-            }
+            "align": "center"
           }
         ],
         "margin": "xxl",
@@ -50,9 +134,9 @@
         "cornerRadius": "md",
         "paddingAll": "md",
         "action": {
-          "type": "message",
+          "type": "uri",
           "label": "action",
-          "text": "hello"
+          "uri": "$DUEORNOTDUE$"
         }
       }
     ],
