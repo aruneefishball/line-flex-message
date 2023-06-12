@@ -60,7 +60,7 @@
               },
               {
                 "type": "text",
-                "text": "$date$",
+                "text": "$bankTransactionDate$",
                 "align": "end",
                 "color": "#FFE6E8"
               }
