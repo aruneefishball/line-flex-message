@@ -98,7 +98,7 @@
               },
               {
                 "type": "text",
-                "text": "$amount$",
+                "text": "$amount$ บาท",
                 "align": "end",
                 "color": "#F0FFF0"
               }
