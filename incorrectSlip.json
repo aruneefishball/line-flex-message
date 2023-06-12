@@ -66,6 +66,31 @@
         "color": "#ffffff",
         "wrap": true,
         "align": "center"
+      },
+      {
+        "type": "separator",
+        "color": "#000000",
+        "margin": "xl"
+      },
+      {
+        "type": "text",
+        "text": "ส่วนทดสอบข้อความของทางอรุณี",
+        "weight": "bold",
+        "size": "md",
+        "color": "#00FFFF",
+        "wrap": true,
+        "align": "center",
+        "margin": "md"
+      },
+      {
+        "type": "text",
+        "text": "$slip_error_message$",
+        "weight": "bold",
+        "size": "md",
+        "color": "#00FFFF",
+        "wrap": true,
+        "align": "center",
+        "margin": "md"
       }
     ],
     "backgroundColor": "#FF0000",
