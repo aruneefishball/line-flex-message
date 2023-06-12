@@ -53,25 +53,6 @@
             "contents": [
               {
                 "type": "text",
-                "text": "วันที่",
-                "color": "#FFE6E8",
-                "flex": 0,
-                "size": "sm"
-              },
-              {
-                "type": "text",
-                "text": "$date$",
-                "align": "end",
-                "color": "#FFE6E8"
-              }
-            ]
-          },
-          {
-            "type": "box",
-            "layout": "horizontal",
-            "contents": [
-              {
-                "type": "text",
                 "text": "เวลา",
                 "color": "#FFE6E8",
                 "flex": 0,
@@ -79,7 +60,7 @@
               },
               {
                 "type": "text",
-                "text": "$time$",
+                "text": "$date$",
                 "align": "end",
                 "color": "#FFE6E8"
               }
