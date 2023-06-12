@@ -53,7 +53,7 @@
             "contents": [
               {
                 "type": "text",
-                "text": "เวลา",
+                "text": "วัน",
                 "color": "#FFE6E8",
                 "flex": 0,
                 "size": "sm"
@@ -72,6 +72,25 @@
             "contents": [
               {
                 "type": "text",
+                "text": "เวลา",
+                "color": "#FFE6E8",
+                "flex": 0,
+                "size": "sm"
+              },
+              {
+                "type": "text",
+                "text": "$bankTransactionTime$",
+                "align": "end",
+                "color": "#FFE6E8"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
                 "text": "จำนวนเงิน",
                 "color": "#FFE6E8",
                 "flex": 0,
@@ -79,7 +98,7 @@
               },
               {
                 "type": "text",
-                "text": "$amount$ บาท",
+                "text": "$amount$",
                 "align": "end",
                 "color": "#F0FFF0"
               }
