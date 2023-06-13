@@ -41,7 +41,7 @@
               },
               {
                 "type": "text",
-                "text": "$name$",
+                "text": "$bankAccountValue$",
                 "align": "end",
                 "color": "#FFE6E8"
               }
