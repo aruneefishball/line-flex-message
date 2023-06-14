@@ -34,7 +34,7 @@
             "contents": [
               {
                 "type": "text",
-                "text": "ชื่อผู้โอน",
+                "text": "โอนจากบัญชี",
                 "color": "#FFE6E8",
                 "flex": 0,
                 "size": "sm"
