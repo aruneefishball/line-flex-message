@@ -14,7 +14,7 @@
         "contents": [
           {
             "type": "text",
-            "text": "จำนวนเงินที่ยังไม่ชำระ",
+            "text": "ยังมีออเดอร์ที่ค้างชำระอยู่นะคะ",
             "color": "#ffffff",
             "size": "lg",
             "flex": 4,
@@ -59,6 +59,46 @@
             "text": "$liability_balance$",
             "align": "end",
             "size": "lg"
+          }
+        ]
+      },
+      {
+        "type": "separator",
+        "margin": "xl"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "จำนวนเงินข้างต้นอาจจะผิดพลาดได้",
+            "align": "start",
+            "color": "#FF0000"
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "เพราะทางอรุณีกำลังพัฒนาอยู่",
+            "align": "start",
+            "color": "#FF0000"
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "ระหว่างนี้ขออภัยด้วยนะคะ",
+            "align": "start",
+            "color": "#FF0000"
           }
         ]
       },
