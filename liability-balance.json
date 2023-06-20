@@ -58,7 +58,8 @@
             "type": "text",
             "text": "$liability_balance$",
             "align": "end",
-            "size": "lg"
+            "size": "lg",
+            "decoration": "line-through"
           }
         ]
       },
