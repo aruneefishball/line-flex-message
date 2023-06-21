@@ -56,7 +56,7 @@
         "contents": [
           {
             "type": "text",
-            "text": "$liability_balance$",
+            "text": "ขณะนี้กำลังอยู่ระหว่างการทดสอบค่ะ ตัวเลขจึงยังไม่ตรง",
             "align": "end",
             "size": "lg",
             "decoration": "line-through"
