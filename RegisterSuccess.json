@@ -3,154 +3,75 @@
     "altText": "this is a flex message",
     "contents": {
   "type": "bubble",
+  "size": "mega",
   "body": {
     "type": "box",
     "layout": "vertical",
     "contents": [
       {
+        "type": "box",
+        "layout": "baseline",
+        "margin": "md",
+        "contents": [
+          {
+            "type": "icon",
+            "url": "https://cdn-icons-png.flaticon.com/512/5610/5610944.png",
+            "size": "5xl",
+            "position": "relative",
+            "offsetBottom": "none",
+            "offsetStart": "none",
+            "offsetEnd": "none",
+            "margin": "xxl"
+          }
+        ],
+        "alignItems": "center"
+      },
+      {
         "type": "text",
-        "text": "สลิปของท่านถูกต้อง",
+        "text": "ลงทะเบียนสำเร็จ",
         "weight": "bold",
-        "size": "xl",
-        "color": "#ffffff"
+        "size": "xxl",
+        "color": "#00802b"
+      },
+      {
+        "type": "separator",
+        "margin": "xl",
+        "color": "#00802b"
       },
       {
         "type": "text",
-        "text": "กรุณาตรวจสอบยอดชำระด้วยนะคะ",
-        "color": "#ffffff"
+        "text": "คุณลูกค้า",
+        "margin": "xl",
+        "size": "xl"
       },
       {
-        "type": "separator",
-        "color": "#000000",
-        "margin": "xl"
+        "type": "text",
+        "text": "ลงทะเบียนสำเร็จแล้วค่ะ",
+        "margin": "xs",
+        "size": "xl"
       },
       {
-        "type": "box",
-        "layout": "vertical",
-        "contents": [
-          {
-            "type": "box",
-            "layout": "horizontal",
-            "contents": [
-              {
-                "type": "text",
-                "text": "โอนจากบัญชี",
-                "color": "#FFE6E8",
-                "flex": 0,
-                "size": "sm"
-              },
-              {
-                "type": "text",
-                "text": "$bankAccountValue$",
-                "align": "end",
-                "color": "#FFE6E8"
-              }
-            ]
-          },
-          {
-            "type": "box",
-            "layout": "horizontal",
-            "contents": [
-              {
-                "type": "text",
-                "text": "วันที่",
-                "color": "#FFE6E8",
-                "flex": 0,
-                "size": "sm"
-              },
-              {
-                "type": "text",
-                "text": "$bankTransactionDate$",
-                "align": "end",
-                "color": "#FFE6E8"
-              }
-            ]
-          },
-          {
-            "type": "box",
-            "layout": "horizontal",
-            "contents": [
-              {
-                "type": "text",
-                "text": "เวลา",
-                "color": "#FFE6E8",
-                "flex": 0,
-                "size": "sm"
-              },
-              {
-                "type": "text",
-                "text": "$bankTransactionTime$",
-                "align": "end",
-                "color": "#FFE6E8"
-              }
-            ]
-          },
-          {
-            "type": "box",
-            "layout": "horizontal",
-            "contents": [
-              {
-                "type": "text",
-                "text": "จำนวนเงิน",
-                "color": "#FFE6E8",
-                "flex": 0,
-                "size": "sm"
-              },
-              {
-                "type": "text",
-                "text": "$amount$ บาท",
-                "align": "end",
-                "color": "#F0FFF0"
-              }
-            ]
-          }
-        ],
-        "spacing": "sm",
-        "margin": "xxl"
+        "type": "text",
+        "text": "คุณลูกค้าสามารถสั่งสินค้า",
+        "margin": "xs",
+        "size": "xl"
       },
       {
-        "type": "separator",
-        "color": "#000000",
-        "margin": "xl"
+        "type": "text",
+        "text": "ได้โดย พิมพ์ \"1\" แล้ว",
+        "margin": "xs",
+        "size": "xl"
       },
       {
-        "type": "box",
-        "layout": "horizontal",
-        "contents": [
-          {
-            "type": "text",
-            "text": "ตรวจสอบยอดชำระ",
-            "margin": "none",
-            "weight": "regular",
-            "size": "xl",
-            "color": "#ffffff",
-            "align": "center"
-          }
-        ],
-        "margin": "xxl",
-        "borderWidth": "light",
-        "borderColor": "#ffffff",
-        "spacing": "none",
-        "cornerRadius": "md",
-        "paddingAll": "md",
-        "action": {
-          "type": "uri",
-          "label": "action",
-          "uri": "$DUEORNOTDUE$"
-        }
+        "type": "text",
+        "text": "แล้วส่งเข้ากลุ่มไลน์นี้เลยค่ะ",
+        "margin": "xs",
+        "size": "xl"
       }
     ],
-    "backgroundColor": "#FF0000",
-    "background": {
-      "type": "linearGradient",
-      "angle": "30deg",
-      "startColor": "#043927",
-      "endColor": "#01796F",
-      "centerColor": "#008000"
-    },
-    "borderColor": "#ffffff",
-    "borderWidth": "bold",
-    "cornerRadius": "xxl"
+    "borderColor": "#00cc44",
+    "borderWidth": "semi-bold",
+    "cornerRadius": "xl"
   }
 }
   }
