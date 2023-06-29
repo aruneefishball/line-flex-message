@@ -1,1 +1,221 @@
-
+{
+    "type": "flex",
+    "altText": "this is a flex message",
+    "contents": {
+    "type": "bubble",
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "เมนู",
+          "weight": "bold",
+          "color": "#ffffff",
+          "size": "3xl",
+          "margin": "none"
+        },
+        {
+          "type": "filler"
+        },
+        {
+          "type": "separator",
+          "margin": "xxl",
+          "color": "#000000"
+        },
+        {
+          "type": "box",
+          "layout": "vertical",
+          "margin": "xxl",
+          "spacing": "none",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "margin": "none",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "1) สั่งสินค้า",
+                  "size": "xl",
+                  "color": "#ffffff"
+                }
+              ],
+              "spacing": "none",
+              "action": {
+                "type": "uri",
+                "label": "action",
+                "uri": "$MENU_PROD$"
+              }
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "margin": "md",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "2) แก้ไขออเดอร์",
+                  "size": "xl",
+                  "color": "#ffffff"
+                }
+              ],
+              "action": {
+                "type": "uri",
+                "label": "action",
+                "uri": "$MENU_WT_ORDER$"
+              }
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "margin": "md",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "3) ชำระเงิน",
+                  "size": "xl",
+                  "color": "#ffffff"
+                }
+              ],
+              "action": {
+                "type": "uri",
+                "label": "action",
+                "uri": "$MENU_RMN_ORDER$"
+              }
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "margin": "md",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "4) เรียนคอร์สออนไลน์",
+                  "size": "xl",
+                  "color": "#ffffff"
+                }
+              ],
+              "spacing": "none",
+              "action": {
+                "type": "uri",
+                "label": "action",
+                "uri": "http://linecorp.com/"
+              }
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "margin": "md",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "5) คำนวนต้นทุนก๋วยเตี๋ยว",
+                  "size": "xl",
+                  "color": "#ffffff"
+                }
+              ],
+              "action": {
+                "type": "uri",
+                "label": "action",
+                "uri": "$COST_ARUNEE_NOODLES$"
+              }
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "margin": "md",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "6) กำหนดเวลาสั่งของ",
+                  "size": "xl",
+                  "color": "#ffffff"
+                }
+              ],
+              "action": {
+                "type": "uri",
+                "label": "action",
+                "uri": "$MENU_SHPT$/?groupID=$groupID$"
+              }
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "margin": "md",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "7) แก้ไขข้อมูลลูกค้า",
+                  "size": "xl",
+                  "color": "#ffffff",
+                  "margin": "none"
+                }
+              ],
+              "paddingEnd": "none",
+              "action": {
+                "type": "uri",
+                "label": "action",
+                "uri": "$MENU_CST_EDIT$/groupID=$groupID$"
+              }
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "margin": "md",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "8) ตั้งค่ากลุ่ม",
+                  "size": "xl",
+                  "color": "#ffffff",
+                  "margin": "none",
+                  "offsetTop": "none"
+                }
+              ],
+              "spacing": "none",
+              "offsetTop": "none",
+              "action": {
+                "type": "uri",
+                "label": "action",
+                "uri": "$MENU_GRP_EDIT$/groupID=$groupID$"
+              }
+            }
+          ],
+          "paddingAll": "none",
+          "borderWidth": "none",
+          "cornerRadius": "none"
+        },
+        {
+          "type": "filler"
+        },
+        {
+          "type": "filler"
+        },
+        {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [],
+          "margin": "xxl"
+        }
+      ],
+      "paddingEnd": "none",
+      "offsetEnd": "none",
+      "paddingBottom": "xxl",
+      "borderColor": "#ffffff",
+      "borderWidth": "bold",
+      "cornerRadius": "xl",
+      "background": {
+        "type": "linearGradient",
+        "angle": "30deg",
+        "startColor": "#660099",
+        "endColor": "#da1884"
+      }
+    },
+    "styles": {
+      "footer": {
+        "separator": true
+      }
+    }
+  }
+  }
