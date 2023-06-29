@@ -73,7 +73,7 @@
         "contents": [
           {
             "type": "text",
-            "text": "จำนวนเงินข้างต้นอาจจะผิดพลาดได้",
+            "text": "$customerID$",
             "align": "start",
             "color": "#FF0000"
           }
