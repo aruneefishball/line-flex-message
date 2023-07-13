@@ -53,6 +53,32 @@
         "text": "ขอบคุณมากค่ะ"
       },
       {
+        "type": "separator",
+        "margin": "xl"
+      },
+      {
+        "type": "text",
+        "text": "ยอดที่ต้องชำระคือ",
+        "margin": "xl"
+      },
+      {
+        "type": "text",
+        "text": "$liability_balance$ บาท",
+        "margin": "md",
+        "align": "end",
+        "color": "#000000",
+        "weight": "bold"
+      },
+      {
+        "type": "text",
+        "text": "ตัวเลขยอดชำระ อยู่ระหว่างการทดสอบ",
+        "margin": "lg"
+      },
+      {
+        "type": "text",
+        "text": "หากผิดพลาด ขออภัยด้วยนะคะ"
+      },
+      {
         "type": "box",
         "layout": "horizontal",
         "contents": [
