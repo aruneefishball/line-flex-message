@@ -67,7 +67,8 @@
         "margin": "md",
         "align": "end",
         "color": "#000000",
-        "weight": "bold"
+        "weight": "bold",
+        "decoration": "line-through"
       },
       {
         "type": "text",
