@@ -54,7 +54,7 @@
         "action": {
           "type": "uri",
           "label": "action",
-          "uri": "$ORDERBOT_MENU$"
+          "uri": "$ORDERBOT_MENU$/?groupID=$groupID$"
         }
       }
     ],
