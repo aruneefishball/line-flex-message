@@ -91,7 +91,7 @@
             "action": {
               "type": "uri",
               "label": "ได้รับสินค้าแล้ว",
-              "uri": "$DUEORNOTDUE$"
+              "uri": "$DUEORNOTDUE$/?groupID=$groupID$"
             }
           }
         ],
