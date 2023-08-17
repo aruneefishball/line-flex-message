@@ -43,7 +43,7 @@
         "action": {
           "type": "uri",
           "label": "action",
-          "uri": "$ORDER$"
+          "uri": "$ORDER$/?groupID=$groupID$"
         }
       }
     ],
