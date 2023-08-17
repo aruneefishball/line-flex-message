@@ -33,7 +33,7 @@
         "action": {
           "type": "uri",
           "label": "action",
-          "uri": "$SETUP$"
+          "uri": "$SETUP$/?groupID=$groupID$"
         }
       }
     ],
