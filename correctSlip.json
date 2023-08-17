@@ -136,7 +136,7 @@
         "action": {
           "type": "uri",
           "label": "action",
-          "uri": "$DUEORNOTDUE$"
+          "uri": "$DUEORNOTDUE$/?groupID=$groupID$"
         }
       }
     ],
