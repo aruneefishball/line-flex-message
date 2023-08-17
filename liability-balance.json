@@ -121,7 +121,7 @@
             "action": {
               "type": "uri",
               "label": "ชำระเงิน",
-              "uri": "$MENU_RMN_ORDER$"
+              "uri": "$MENU_RMN_ORDER$/?groupID=$groupID$"
             },
             "color": "#ffffff",
             "height": "md",
