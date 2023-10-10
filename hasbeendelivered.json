@@ -4,61 +4,61 @@
     "contents": {
   "type": "bubble",
   "size": "mega",
-  "header": {
+  "hero": {
     "type": "box",
     "layout": "vertical",
-    "contents": [
-      {
-        "type": "box",
-        "layout": "vertical",
-        "contents": [
-          {
-            "type": "text",
-            "text": "สินค้าจัดส่งถึงแล้ว",
-            "color": "#ffffff",
-            "size": "lg",
-            "flex": 4,
-            "weight": "bold"
-          }
-        ]
-      }
-    ],
-    "paddingAll": "20px",
-    "backgroundColor": "#0367D3",
-    "spacing": "md",
-    "height": "75px",
-    "paddingTop": "22px",
-    "background": {
-      "type": "linearGradient",
-      "angle": "30deg",
-      "startColor": "#660099",
-      "endColor": "#da1884"
-    }
+    "contents": []
   },
   "body": {
     "type": "box",
     "layout": "vertical",
     "contents": [
       {
-        "type": "text",
-        "text": "ขณะนี้เราจัดส่งสินค้าเสร็จแล้ว",
-        "margin": "xl"
+        "type": "image",
+        "url": "https://res.cloudinary.com/suvarnabhumi-food/image/upload/v1696943985/website.arunee.com/deliverysuccess_chq3r4.png",
+        "align": "start",
+        "aspectMode": "fit",
+        "backgroundColor": "#ffffff",
+        "animated": true,
+        "position": "relative",
+        "margin": "none",
+        "size": "md"
       },
       {
         "type": "text",
-        "text": "กรุณาตรวจสอบสินค้าด้วยนะคะ"
-      },
-      {
-        "type": "text",
-        "text": "ขอบคุณมากค่ะ"
+        "text": "จัดส่งสินค้าสำเร็จ !",
+        "size": "xxl",
+        "color": "#30b03e",
+        "weight": "bold",
+        "style": "normal"
       },
       {
         "type": "separator",
+        "color": "#30b03e",
+        "margin": "none"
+      },
+      {
+        "type": "text",
+        "text": "ท่านชำระเงินงวดที่แล้ว ภายใน",
         "margin": "xl"
       },
       {
         "type": "text",
-        "text": "ยอดค้างชำระคือ",
+        "text": "$last_payment_speed$",
+        "weight": "bold"
+      },
+      {
+        "type": "text",
+        "text": "เก่งมากเลย เราสู้ไปด้วยกันนะคะ !"
+      },
+      {
+        "type": "separator",
+        "margin": "xl",
+        "color": "#30b03e"
+      },
+      {
+        "type": "text",
+        "text": "ยอดของท่านคือ",
         "margin": "xl"
       },
       {
@@ -82,19 +82,7 @@
       {
         "type": "box",
         "layout": "horizontal",
-        "contents": [
-          {
-            "type": "button",
-            "color": "#ffffff",
-            "height": "md",
-            "gravity": "center",
-            "action": {
-              "type": "uri",
-              "label": "ได้รับสินค้าแล้ว",
-              "uri": "$DUEORNOTDUE$/?groupID=$groupID$"
-            }
-          }
-        ],
+        "contents": [],
         "backgroundColor": "#da1884",
         "borderWidth": "bold",
         "borderColor": "#ffffff",
@@ -102,7 +90,11 @@
         "margin": "xxl"
       }
     ],
-    "backgroundColor": "#fcecfa"
+    "backgroundColor": "#ffffff",
+    "borderColor": "#34eb49",
+    "borderWidth": "bold",
+    "cornerRadius": "xl",
+    "justifyContent": "center"
   }
 }
   }
