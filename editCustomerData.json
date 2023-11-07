@@ -54,29 +54,7 @@
             "contents": [
               {
                 "type": "text",
-                "text": "7) สร้างลูกค้าใหม่",
-                "size": "xl",
-                "color": "#ffffff",
-                "margin": "none",
-                "offsetTop": "none"
-              }
-            ],
-            "spacing": "none",
-            "offsetTop": "none",
-            "action": {
-              "type": "uri",
-              "label": "action",
-              "uri": "$MENU_CREATE_CUS$"
-            }
-          },
-          {
-            "type": "box",
-            "layout": "horizontal",
-            "margin": "md",
-            "contents": [
-              {
-                "type": "text",
-                "text": "8) แก้ไขข้อมูลลูกค้า",
+                "text": "7) แก้ไขข้อมูลลูกค้า",
                 "size": "xl",
                 "color": "#ffffff",
                 "margin": "none"
@@ -96,7 +74,7 @@
             "contents": [
               {
                 "type": "text",
-                "text": "9) ตั้งค่ากลุ่ม",
+                "text": "8) ตั้งค่ากลุ่ม",
                 "size": "xl",
                 "color": "#ffffff",
                 "margin": "none",
