@@ -101,7 +101,7 @@
             "action": {
               "type": "uri",
               "label": "action",
-              "uri": "arunee-affiliate-liffapp.azurewebsites.net?groupID=$groupID$"
+              "uri": "https://arunee-affiliate-liffapp.azurewebsites.net?groupID=$groupID$"
             }
           },
           {
