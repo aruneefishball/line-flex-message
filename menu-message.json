@@ -101,7 +101,7 @@
             "action": {
               "type": "uri",
               "label": "action",
-              "uri": "http://linecorp.com/?groupID=$groupID$"
+              "uri": "arunee-affiliate-liffapp.azurewebsites.net?groupID=$groupID$"
             }
           },
           {
