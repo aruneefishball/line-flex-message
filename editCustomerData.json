@@ -36,7 +36,25 @@
             "contents": [
               {
                 "type": "text",
-                "text": "6) กำหนดเวลาสั่งของ",
+                "text": "6) กดส่งตำแหน่งร้าน และจุดส่งของ",
+                "size": "xl",
+                "color": "#ffffff"
+              }
+            ],
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "$RECORD_GEOLOCATION $/?groupID=$groupID$"
+            }
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "margin": "md",
+            "contents": [
+              {
+                "type": "text",
+                "text": "7) กำหนดเวลาสั่งของ",
                 "size": "xl",
                 "color": "#ffffff"
               }
@@ -54,7 +72,7 @@
             "contents": [
               {
                 "type": "text",
-                "text": "7) แก้ไขข้อมูลลูกค้า",
+                "text": "8) แก้ไขข้อมูลลูกค้า",
                 "size": "xl",
                 "color": "#ffffff",
                 "margin": "none"
@@ -74,7 +92,7 @@
             "contents": [
               {
                 "type": "text",
-                "text": "8) ตั้งค่ากลุ่ม",
+                "text": "9) ตั้งค่ากลุ่ม",
                 "size": "xl",
                 "color": "#ffffff",
                 "margin": "none",
