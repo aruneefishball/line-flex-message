@@ -44,7 +44,7 @@
             "action": {
               "type": "uri",
               "label": "action",
-              "uri": "$RECORD_GEOLOCATION $/?groupID=$groupID$"
+              "uri": "$RECORD_GEOLOCATION$/?groupID=$groupID$"
             }
           },
           {
