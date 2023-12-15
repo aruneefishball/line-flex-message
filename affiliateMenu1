@@ -1,0 +1,59 @@
+{
+    "type": "flex",
+    "altText": "this is a flex message",
+    "contents": {
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "กรุณากดสั่งสินค้า",
+        "weight": "regular",
+        "size": "xl",
+        "align": "center",
+        "offsetTop": "none",
+        "offsetBottom": "none",
+        "offsetEnd": "none",
+        "margin": "none",
+        "color": "#ffffff"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "สั่งสินค้า",
+            "size": "xl",
+            "align": "center",
+            "margin": "md",
+            "offsetTop": "none",
+            "weight": "bold",
+            "gravity": "center",
+            "color": "#ffffff"
+          }
+        ],
+        "spacing": "xl",
+        "borderWidth": "medium",
+        "borderColor": "#ffffff",
+        "cornerRadius": "md",
+        "margin": "xl",
+        "action": {
+          "type": "uri",
+          "label": "action",
+          "uri": "$ORDER$/?groupID=$groupID$"
+        }
+      }
+    ],
+    "background": {
+      "type": "linearGradient",
+      "angle": "15deg",
+      "startColor": "#9F00C5",
+      "endColor": "#DF00FF",
+      "centerColor": "#e4007C"
+    }
+  }
+}
+  }
