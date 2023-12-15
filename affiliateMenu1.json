@@ -4,55 +4,197 @@
     "contents": {
   "type": "bubble",
   "body": {
+  "type": "bubble",
+  "size": "giga",
+  "body": {
     "type": "box",
     "layout": "vertical",
     "contents": [
       {
         "type": "text",
-        "text": "กรุณากดสั่งสินค้า",
-        "weight": "regular",
-        "size": "xl",
-        "align": "center",
-        "offsetTop": "none",
-        "offsetBottom": "none",
-        "offsetEnd": "none",
-        "margin": "none",
-        "color": "#ffffff"
+        "text": "เมนู",
+        "weight": "bold",
+        "color": "#ffffff",
+        "size": "3xl",
+        "margin": "none"
+      },
+      {
+        "type": "filler"
+      },
+      {
+        "type": "separator",
+        "margin": "xxl",
+        "color": "#000000"
       },
       {
         "type": "box",
         "layout": "vertical",
+        "margin": "xxl",
+        "spacing": "none",
         "contents": [
           {
-            "type": "text",
-            "text": "สั่งสินค้า",
-            "size": "xl",
-            "align": "center",
+            "type": "box",
+            "layout": "horizontal",
+            "margin": "none",
+            "contents": [
+              {
+                "type": "text",
+                "text": "1) ลงทะเบียน",
+                "size": "xl",
+                "color": "#ffffff"
+              }
+            ],
+            "spacing": "none",
+            "action": {
+              "type": "message",
+              "label": "action",
+              "text": "hello"
+            }
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
             "margin": "md",
-            "offsetTop": "none",
-            "weight": "bold",
-            "gravity": "center",
-            "color": "#ffffff"
+            "contents": [
+              {
+                "type": "text",
+                "text": "2) กรุณาระบุ Channel ของท่าน",
+                "size": "xl",
+                "color": "#ffffff"
+              }
+            ],
+            "action": {
+              "type": "message",
+              "label": "action",
+              "text": "hello"
+            }
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "margin": "md",
+            "contents": [
+              {
+                "type": "text",
+                "text": "3) สร้างชื่อ Affiliate Code",
+                "size": "xl",
+                "color": "#ffffff"
+              }
+            ],
+            "action": {
+              "type": "message",
+              "label": "action",
+              "text": "hello"
+            }
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "margin": "md",
+            "contents": [
+              {
+                "type": "text",
+                "text": "4) กรอกข้อมูลเพื่อรับรายได้",
+                "size": "xl",
+                "color": "#ffffff"
+              }
+            ],
+            "spacing": "none",
+            "action": {
+              "type": "message",
+              "label": "action",
+              "text": "hello"
+            }
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "margin": "md",
+            "contents": [
+              {
+                "type": "text",
+                "text": "5) สร้าง Affiliate Link จาก Content",
+                "size": "xl",
+                "color": "#ffffff"
+              }
+            ],
+            "action": {
+              "type": "message",
+              "label": "action",
+              "text": "hello"
+            }
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "margin": "md",
+            "contents": [
+              {
+                "type": "text",
+                "text": "6) ตัวอย่าง Content ที่ดี",
+                "size": "xl",
+                "color": "#ffffff"
+              }
+            ],
+            "action": {
+              "type": "message",
+              "label": "action",
+              "text": "hello"
+            }
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "margin": "md",
+            "contents": [
+              {
+                "type": "text",
+                "text": "6) เช็คสถิติ Content ของท่าน",
+                "size": "xl",
+                "color": "#ffffff"
+              }
+            ],
+            "action": {
+              "type": "message",
+              "label": "action",
+              "text": "hello"
+            }
           }
         ],
-        "spacing": "xl",
-        "borderWidth": "medium",
-        "borderColor": "#ffffff",
-        "cornerRadius": "md",
-        "margin": "xl",
-        "action": {
-          "type": "uri",
-          "label": "action",
-          "uri": "$ORDER$/?groupID=$groupID$"
-        }
+        "paddingAll": "none",
+        "borderWidth": "none",
+        "cornerRadius": "none"
+      },
+      {
+        "type": "filler"
+      },
+      {
+        "type": "filler"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [],
+        "margin": "xxl"
       }
     ],
+    "paddingEnd": "none",
+    "offsetEnd": "none",
+    "paddingBottom": "xxl",
+    "borderColor": "#ffffff",
+    "borderWidth": "bold",
+    "cornerRadius": "xl",
     "background": {
       "type": "linearGradient",
-      "angle": "15deg",
-      "startColor": "#9F00C5",
-      "endColor": "#DF00FF",
-      "centerColor": "#e4007C"
+      "angle": "45deg",
+      "startColor": "#4c25b8",
+      "endColor": "#4c25b8",
+      "centerColor": "#a318f2"
+    }
+  },
+  "styles": {
+    "footer": {
+      "separator": true
     }
   }
 }
