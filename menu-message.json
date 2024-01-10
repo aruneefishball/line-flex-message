@@ -129,7 +129,7 @@
             "contents": [
               {
                 "type": "text",
-                "text": "6) กำหนดเวลาสั่งของ",
+                "text": "6) ล็อคเอ๊าต์",
                 "size": "xl",
                 "color": "#ffffff"
               }
@@ -137,7 +137,7 @@
             "action": {
               "type": "uri",
               "label": "action",
-              "uri": "$MENU_SHPT$/?groupID=$groupID$"
+              "uri": "$LOGOUT$/?groupID=$groupID$"
             }
           }
         ],
