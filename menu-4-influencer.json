@@ -50,7 +50,7 @@
             "cornerRadius": "lg",
             "alignItems": "flex-start",
             "margin": "xxl",
-            "backgroundColor": "#8b00fc",
+            "backgroundColor": "#fc008b",
             "height": "50px",
             "offsetTop": "none",
             "paddingAll": "md"
@@ -73,7 +73,7 @@
             "cornerRadius": "lg",
             "alignItems": "flex-start",
             "margin": "md",
-            "backgroundColor": "#8b00fc",
+            "backgroundColor": "#fc008b",
             "height": "50px",
             "offsetTop": "none",
             "paddingAll": "md"
@@ -96,7 +96,7 @@
             "cornerRadius": "lg",
             "alignItems": "flex-start",
             "margin": "md",
-            "backgroundColor": "#8b00fc",
+            "backgroundColor": "#fc008b",
             "height": "50px",
             "offsetTop": "none",
             "paddingAll": "md"
@@ -119,7 +119,7 @@
             "cornerRadius": "lg",
             "alignItems": "flex-start",
             "margin": "md",
-            "backgroundColor": "#8b00fc",
+            "backgroundColor": "#fc008b",
             "height": "50px",
             "offsetTop": "none",
             "paddingAll": "md"
@@ -142,7 +142,7 @@
             "cornerRadius": "lg",
             "alignItems": "flex-start",
             "margin": "md",
-            "backgroundColor": "#8b00fc",
+            "backgroundColor": "#fc008b",
             "height": "50px",
             "offsetTop": "none",
             "paddingAll": "md"
@@ -165,7 +165,7 @@
             "cornerRadius": "lg",
             "alignItems": "flex-start",
             "margin": "md",
-            "backgroundColor": "#8b00fc",
+            "backgroundColor": "#fc008b",
             "height": "50px",
             "offsetTop": "none",
             "paddingAll": "md"
