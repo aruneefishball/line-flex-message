@@ -1,12 +1,13 @@
 {
     "type": "flex",
     "altText": "this is a flex message",
-    "contents": {{
+    "contents": {
+        {
   "type": "bubble",
   "size": "giga",
   "hero": {
     "type": "image",
-    "url": "https://res.cloudinary.com/suvarnabhumi-food/image/upload/v1699081495/website.academy.arunee/Flex-message-pictures/businessman-with-magnet-collects-dollars-attracts-money-correct-business-strategy-passive-income-excess-profit_99433-7070_xbiq2q.jpg",
+    "url": "https://www.cordic.com/thumbs/790x450c/masthead/istock-1142841849.jpg",
     "size": "full",
     "aspectRatio": "20:13",
     "aspectMode": "cover",
