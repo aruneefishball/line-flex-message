@@ -53,7 +53,12 @@
             "backgroundColor": "#8003fc",
             "height": "50px",
             "offsetTop": "none",
-            "paddingAll": "md"
+            "paddingAll": "md",
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "$REGISTER_INFLUENCER $"
+            }
           },
           {
             "type": "box",
