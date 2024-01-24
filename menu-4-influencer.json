@@ -57,7 +57,7 @@
             "action": {
               "type": "uri",
               "label": "action",
-              "uri": "$REGISTER_INFLUENCER $"
+              "uri": "$REGISTER_INFLUENCER$"
             }
           },
           {
