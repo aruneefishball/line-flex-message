@@ -81,7 +81,12 @@
             "backgroundColor": "#8003fc",
             "height": "50px",
             "offsetTop": "none",
-            "paddingAll": "md"
+            "paddingAll": "md",
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "$AFFILIATE_COMMISSION_DOCS$"
+            }
           },
           {
             "type": "box",
@@ -104,7 +109,12 @@
             "backgroundColor": "#8003fc",
             "height": "50px",
             "offsetTop": "none",
-            "paddingAll": "md"
+            "paddingAll": "md",
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "$CHANNEL_LINK$"
+            }
           },
           {
             "type": "box",
@@ -127,7 +137,12 @@
             "backgroundColor": "#8003fc",
             "height": "50px",
             "offsetTop": "none",
-            "paddingAll": "md"
+            "paddingAll": "md",
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "$ARUNEE_ACADEMY$"
+            }
           },
           {
             "type": "box",
@@ -135,7 +150,7 @@
             "contents": [
               {
                 "type": "text",
-                "text": "5)  ทดลองเรียนคอร์สจริง",
+                "text": "5)  เช็ครายได้ของท่าน",
                 "size": "xl",
                 "color": "#ffffff",
                 "align": "center",
@@ -150,30 +165,12 @@
             "backgroundColor": "#8003fc",
             "height": "50px",
             "offsetTop": "none",
-            "paddingAll": "md"
-          },
-          {
-            "type": "box",
-            "layout": "vertical",
-            "contents": [
-              {
-                "type": "text",
-                "text": "6)  เช็ครายได้ของท่าน",
-                "size": "xl",
-                "color": "#ffffff",
-                "align": "center",
-                "weight": "regular"
-              }
-            ],
-            "borderColor": "#d2fc03",
-            "borderWidth": "medium",
-            "cornerRadius": "lg",
-            "alignItems": "flex-start",
-            "margin": "md",
-            "backgroundColor": "#8003fc",
-            "height": "50px",
-            "offsetTop": "none",
-            "paddingAll": "md"
+            "paddingAll": "md",
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "$AFFILIATE_COMMISSION_SUMMARY$"
+            }
           }
         ]
       }
