@@ -137,7 +137,12 @@
             "backgroundColor": "#703af0",
             "height": "50px",
             "offsetTop": "none",
-            "paddingAll": "md"
+            "paddingAll": "md",
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "https://arunee-affiliate-liffapp.azurewebsites.net/steptobeanaffiliate"
+            }
           }
         ]
       }
