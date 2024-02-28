@@ -1,0 +1,133 @@
+{
+    "type": "flex",
+    "altText": "this is a flex message",
+    "contents": {
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "คุณลูกค้ากรุณาโอนเงิน",
+        "weight": "bold",
+        "size": "xl",
+        "align": "center",
+        "color": "#ffffff"
+      },
+      {
+        "type": "separator",
+        "margin": "lg",
+        "color": "#FFDF00"
+      },
+      {
+        "type": "text",
+        "text": "จำนวนเงิน 1,199 บาท",
+        "weight": "bold",
+        "size": "xl",
+        "align": "center",
+        "action": {
+          "type": "message",
+          "label": "action",
+          "text": "hello"
+        },
+        "margin": "xxl",
+        "color": "#ffffff"
+      },
+      {
+        "type": "text",
+        "text": "ธนาคารไทยพาณิชย์",
+        "weight": "bold",
+        "size": "xl",
+        "align": "center",
+        "action": {
+          "type": "message",
+          "label": "action",
+          "text": "hello"
+        },
+        "margin": "md",
+        "color": "#ffffff"
+      },
+      {
+        "type": "text",
+        "text": "เลขที่บัญชี 347-404461-8",
+        "weight": "bold",
+        "size": "xl",
+        "align": "center",
+        "action": {
+          "type": "message",
+          "label": "action",
+          "text": "hello"
+        },
+        "margin": "none",
+        "color": "#ffffff"
+      },
+      {
+        "type": "text",
+        "text": "บริษัท สุวรรณภูมิ ฟู้ด จำกัด",
+        "weight": "bold",
+        "size": "xl",
+        "align": "center",
+        "action": {
+          "type": "message",
+          "label": "action",
+          "text": "hello"
+        },
+        "margin": "none",
+        "color": "#ffffff"
+      },
+      {
+        "type": "separator",
+        "margin": "xxl",
+        "color": "#FFDF00"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [],
+        "margin": "xxl"
+      },
+      {
+        "type": "text",
+        "text": "แล้วแนบสลิปโอนเงิน",
+        "weight": "bold",
+        "size": "xl",
+        "align": "center",
+        "action": {
+          "type": "message",
+          "label": "action",
+          "text": "hello"
+        },
+        "margin": "none",
+        "color": "#ffffff"
+      },
+      {
+        "type": "text",
+        "text": "กลับมาที่แชทนี้ได้เลยค่ะ",
+        "weight": "bold",
+        "size": "xl",
+        "align": "center",
+        "action": {
+          "type": "message",
+          "label": "action",
+          "text": "hello"
+        },
+        "margin": "none",
+        "color": "#ffffff"
+      }
+    ],
+    "background": {
+      "type": "linearGradient",
+      "angle": "45deg",
+      "startColor": "#880085",
+      "endColor": "#880085",
+      "centerColor": "#9F00C5"
+    }
+  },
+  "styles": {
+    "header": {
+      "separator": true
+    }
+  }
+}
+}
