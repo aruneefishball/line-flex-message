@@ -1,0 +1,97 @@
+{
+    "type": "flex",
+    "altText": "this is a flex message",
+    "contents": {
+  "type": "bubble",
+  "size": "giga",
+  "hero": {
+    "type": "image",
+    "url": "https://res.cloudinary.com/suvarnabhumi-food/image/upload/v1709294822/influencer/%E0%B8%81%E0%B8%A3%E0%B8%B2%E0%B8%9F%E0%B8%9F%E0%B8%B4%E0%B8%84_%E0%B8%A0%E0%B8%B2%E0%B8%9E_opuhk8.png",
+    "size": "full",
+    "aspectRatio": "20:13",
+    "aspectMode": "cover",
+    "action": {
+      "type": "uri",
+      "uri": "http://linecorp.com/"
+    }
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "เมนูสำหรับอาจารย์",
+        "weight": "bold",
+        "size": "xl",
+        "color": "#3e017a"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "lg",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "อัพเดทข้อมูลโอนเงิน",
+                "size": "xl",
+                "color": "#ffffff",
+                "align": "center",
+                "weight": "regular"
+              }
+            ],
+            "borderColor": "#ffffff",
+            "borderWidth": "medium",
+            "cornerRadius": "lg",
+            "alignItems": "center",
+            "margin": "xxl",
+            "backgroundColor": "#703af0",
+            "height": "50px",
+            "offsetTop": "none",
+            "paddingAll": "md",
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "https://www.affiliate.arunee.com"
+            }
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "ยอดขายย้อนหลัง 3 เดือน",
+                "size": "xl",
+                "color": "#ffffff",
+                "align": "center",
+                "weight": "regular"
+              }
+            ],
+            "borderColor": "#ffffff",
+            "borderWidth": "medium",
+            "cornerRadius": "lg",
+            "alignItems": "center",
+            "margin": "md",
+            "backgroundColor": "#703af0",
+            "height": "50px",
+            "offsetTop": "none",
+            "paddingAll": "md",
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "https://www.academy.arunee.com/about"
+            }
+          }
+        ]
+      }
+    ],
+    "backgroundColor": "#dbccfc"
+  }
+}
+}
