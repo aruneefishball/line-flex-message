@@ -57,7 +57,7 @@
             "action": {
               "type": "uri",
               "label": "action",
-              "uri": "https://www.affiliate.arunee.com"
+              "uri": "https://liffapp.azurewebsites.net/UpdateUser"
             }
           },
           {
@@ -85,7 +85,7 @@
             "action": {
               "type": "uri",
               "label": "action",
-              "uri": "https://www.academy.arunee.com/about"
+              "uri": "https://liffapp.azurewebsites.net/MentorMonthlySales"
             }
           }
         ]
