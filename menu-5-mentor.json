@@ -57,7 +57,7 @@
             "action": {
               "type": "uri",
               "label": "action",
-              "uri": "https://lineliff.pos-s.arunee.com/UpdateUser"
+              "uri": "$UPDATE_USER$"
             }
           },
           {
@@ -85,7 +85,7 @@
             "action": {
               "type": "uri",
               "label": "action",
-              "uri": "https://lineliff.pos-s.arunee.com/MentorMonthlySales"
+              "uri": "$MENTOR_MONTHLY_SALES$"
             }
           }
         ]
